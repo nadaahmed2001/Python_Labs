@@ -17,6 +17,7 @@ def calculator(operation,a,b):
         case _:
             print("Invalid operation")
 
+print("---------------- Question 1 ----------------")
 calculator("add",10,5)
 calculator("sub",10,5)
 
@@ -32,6 +33,7 @@ def filter_even(nums):
     print("Count of odd numbers: ",len(filtered_list))
 
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print("---------------- Question 2 ----------------")
 filter_even(numbers)
 
 
@@ -52,6 +54,7 @@ def check_password(password):
         print("Invalid Password")
     
 password = "Pass1234"
+print("---------------- Question 3 ----------------")
 check_password(password)
 
 # =====================================================================================
